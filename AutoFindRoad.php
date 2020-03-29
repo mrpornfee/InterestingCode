@@ -219,7 +219,7 @@ Class AutoFindRoad
         }
     }
 
-    //寻找的过程1:↓←↑→
+    //寻找的过程2:↓←↑→
     private function findDLUR($res)
     {
         if (self::$map[$res[0]][$res[1]] == self::$de) {
@@ -245,7 +245,7 @@ Class AutoFindRoad
         }
     }
 
-    //寻找的过程1:←↑→↓
+    //寻找的过程3:←↑→↓
     private function findLURD($res)
     {
         if (self::$map[$res[0]][$res[1]] == self::$de) {
@@ -271,7 +271,7 @@ Class AutoFindRoad
         }
     }
 
-    //寻找的过程1:↑→↓←
+    //寻找的过程4:↑→↓←
     private function findURDL($res)
     {
         if (self::$map[$res[0]][$res[1]] == self::$de) {
